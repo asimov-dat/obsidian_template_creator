@@ -48,7 +48,10 @@ def create_template(ttype, name):
             create_file(text, name)
         else:
             print('file already exists')
-    
+    elif ttype == 4:
+        print('good bay')
+        exit()
+
 def template_menu():
     print('----------------------')
     print('| 1 - semanal        |')
@@ -76,7 +79,9 @@ def menu_option(num, path):
         print('coming soon')
     elif num == 3:
         print('coming soon')
-
+    elif num == 4:
+        print('good bay')
+        exit()
 
 if __name__  == '__main__':
     path = '/home/dat/obsidian/brain/Planing_Systems/2022/March/'
